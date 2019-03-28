@@ -34,3 +34,4 @@ Variance measures the change of learning performance caused by the change of tri
 of data disturbance.
 
 ### 6. Cross Validation
+Cross Validation is a common model selection methods. The data is divided into three parts and each part of the data distribution as consistent as possible. Then we use k-1 parts as training set and the rest is used as validation set. Finally we get k results and calculate the average amount. To a large extent, the stability and fidelity of the evaluation results by cross validation method depend on the value of k.
