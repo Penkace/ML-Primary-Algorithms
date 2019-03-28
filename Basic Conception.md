@@ -5,6 +5,7 @@
   4. Overfitting And Underfitting
   5. Variance And Bias
   6. Cross Validation
+  7. Regularization
  
 ### 1. Supervised Learning
 Supervised learning is the task of inferring a function from labeled training data. The training data consist of a set of training examples
@@ -20,11 +21,9 @@ signal to evaluate a potential solution.
 In machine learning, generalization ability refers to the generalization ability of the machine learning algorithm to the new sample.
 The purpose of learning is to learn the rules hidden behind the train data. This rules can give appropriate output in another similar data.
 
-### 4. Overfitting And Underfitting
-Normally, we hope to get a classifier having a good performance on new data. We let our model to learn the universal rules from the training data
-in order to make a correct judgement in the new sample. Whereas, this will cause the model learns the potential rules of the training data which don't exist
-in other examples. As a result, the generalization ability of this model decreases. This is called 'Overfitting'.<br>
-The opposite of overfitting is underfitting, which means the model don't well learn the general rules of training data.
+### 4. Overfitting, Underfitting And Solution
+Normally, we hope to get a classifier having a good performance on new data. We let our model to learn the universal rules from the training data in order to make a correct judgement in the new sample. Whereas, this will cause the model learns the potential rules of the training data which don't exist in other examples. As a result, the generalization ability of this model decreases. This is called 'Overfitting'. The most common way to solve overfitting is regularization.<br>
+The opposite of overfitting is underfitting, which means the model don't well learn the general rules of training data. The reason of underfitting is the lack of features. So far as I know, there're two ways to overcome underfitting. One is to add polynomial and the other is to reduce parameter of the regularization.
 
 ### 5.Variance And Bias
 Actually, we always want to know why the model has generalization ability and bias and variance is a tool to explain the generalization ability
