@@ -24,6 +24,8 @@ The purpose of learning is to learn the rules hidden behind the train data. This
 ### 4. Overfitting, Underfitting And Solution
 Normally, we hope to get a classifier having a good performance on new data. We let our model to learn the universal rules from the training data in order to make a correct judgement in the new sample. Whereas, this will cause the model learns the potential rules of the training data which don't exist in other examples. As a result, the generalization ability of this model decreases. This is called 'Overfitting'. The most common way to solve overfitting is regularization.<br>
 The opposite of overfitting is underfitting, which means the model don't well learn the general rules of training data. The reason of underfitting is the lack of features. So far as I know, there're two ways to overcome underfitting. One is to add polynomial and the other is to reduce parameter of the regularization.
+Moreover, we can try to **make a more complicated model** to overcome underfitting problem.For example, we can use more trees in RandomForest algorithm. When not having enough examples to learn the relationship between features and targets, model will have underfitting and high bias.
+
 
 ### 5.Variance And Bias
 Actually, we always want to know why the model has generalization ability and bias and variance is a tool to explain the generalization ability
