@@ -2,7 +2,7 @@
 DataWhale the sixth period——Primary Algorithms Review
 
 ## Individual Description
-本人SCNU大三在读，目前在准备升学的工作，每天的任务在时间允许的情况下都会使用英文写作，目的是为了恢复自己的英语水平以及积累词汇，因为github的markdown不支持原生的latext，所以通篇下来可能只有字母...一些公式的推导会在之后补上。
+本人SCNU大三在读，目前在准备升学的工作，每天的任务在时间允许的情况下都会使用英文写作，目的是为了恢复自己的英语水平以及积累词汇，因为github的markdown不支持**原生的latext**，所以通篇下来可能只有字母...一些公式的推导会在之后补上。
 
 时间表：
 -2019-3-29： 完成TASK1 Basic Conception.md 和 The Principle of Linear Regression.md.
