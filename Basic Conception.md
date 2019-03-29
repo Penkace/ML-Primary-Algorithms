@@ -34,3 +34,9 @@ of data disturbance.
 
 ### 6. Cross Validation
 Cross Validation is a common model selection methods. The data is divided into three parts and each part of the data distribution as consistent as possible. Then we use k-1 parts as training set and the rest is used as validation set. Finally we get k results and calculate the average amount. To a large extent, the stability and fidelity of the evaluation results by cross validation method depend on the value of k.
+
+### 7. Regularization
+Generally, regularization can avoid overfitting by controling the weight of parameters. The regularization we use in machine learning includes L1 regularization (it also called Lasso Regression) and L2 regularization (it also called Ridge Regression). L1 regularization is the sum of absolute values of each element of the weight vector. L2 regularization is the square root of sum of the squares of the weight vectors. The result of L1 regularization is that model is more sparse and has many parameters whose weights are equal to zero. It's considered that L1 regularization is the optimal convex approximation of L0 regularization and L1 regularization will throw away the useless features. L2 regularization tend to retain more features but their weight is closed to zero.
+<img src="http://latex.codecogs.com/gif.latex?" />
+![](http://latex.codecogs.com/gif.latex?\\min_{f\\subset F} \\frac{1}{N} \\sum_{i=1}^{N} L\\left ( y_{i},f\\left ( x_{i} \\right ) \\right )+\\lambda J\\left ( f \\right ))
+
