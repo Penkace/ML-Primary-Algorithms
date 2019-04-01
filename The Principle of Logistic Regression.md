@@ -18,6 +18,7 @@ the dependent variable.
 Anyway, there're a lot of similarities between logistic regression and linear regression. The big difference is their dependent
 variables. Both of them are belong to the same family, which we called generalized linear models.
 
-### 2. The Principle of Logistic Regression
-https://latex.codecogs.com/gif.latex?F\\left&space;(&space;x&space;\\right&space;)&space;=&space;P\\left&space;(&space;X\\leq&space;x&space;\\right&space;)=&space;\\frac{1}{1&plus;e^{\\frac{-\\left&space;(&space;x-\\mu&space;\\right&space;)}{\\gamma&space;}}}
-<br>Let
+### 2. The Principle of Logistic Regression 
+![image](https://github.com/Penkace/ML-Primary-Algorithms/blob/master/1.png) 
+
+### 3. The Derivation And Optimization of Loss Function of Logistic Regression
