@@ -19,5 +19,5 @@ Anyway, there're a lot of similarities between logistic regression and linear re
 variables. Both of them are belong to the same family, which we called generalized linear models.
 
 ### 2. The Principle of Logistic Regression
-https://latex.codecogs.com/gif.latex?F\left&space;(&space;x&space;\right&space;)&space;=&space;P\left&space;(&space;X\leq&space;x&space;\right&space;)=&space;\frac{1}{1&plus;e^{\frac{-\left&space;(&space;x-\mu&space;\right&space;)}{\gamma&space;}}}
+https://latex.codecogs.com/gif.latex?F\\left&space;(&space;x&space;\\right&space;)&space;=&space;P\\left&space;(&space;X\\leq&space;x&space;\\right&space;)=&space;\\frac{1}{1&plus;e^{\\frac{-\\left&space;(&space;x-\\mu&space;\\right&space;)}{\\gamma&space;}}}
 <br>Let
