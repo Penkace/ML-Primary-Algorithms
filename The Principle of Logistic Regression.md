@@ -23,3 +23,7 @@ variables. Both of them are belong to the same family, which we called generaliz
 
 ### 3. The Derivation And Optimization of Loss Function of Logistic Regression
 ![image](https://github.com/Penkace/ML-Primary-Algorithms/blob/master/2.png) 
+![image](https://github.com/Penkace/ML-Primary-Algorithms/blob/master/Logistic损失函数推导.jpg)
+### 4. Regularization And Model Evaluation
+The loss function of logistic regression can be solved by gradient descent method. It's similar to the derivation of the loss 
+function for linear regression. 
