@@ -22,3 +22,4 @@ variables. Both of them are belong to the same family, which we called generaliz
 ![image](https://github.com/Penkace/ML-Primary-Algorithms/blob/master/1.png) 
 
 ### 3. The Derivation And Optimization of Loss Function of Logistic Regression
+![image](https://github.com/Penkace/ML-Primary-Algorithms/blob/master/2.png) 
