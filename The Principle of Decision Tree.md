@@ -56,4 +56,4 @@ tree knot that describes the classification of instances and it's made up of nod
   ### 5. The Evaluation of Model.
  
   ### 6. The Illustration of Sklearn.
-  
+  The decision tree in sklearn has thirteen parameters and seven attribute/
